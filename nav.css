@@ -1,0 +1,55 @@
+#nb{
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    height: inherit;
+    transition: all 1s;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;   
+    z-index: 1;
+}
+#nbi{
+    float: left;
+    border-radius: 5px;
+    transition: all 1s;
+    text-decoration: none;
+    text-align: center;
+ 
+}
+#nbi a{
+    font-size: 25px;
+    position: inherit;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding: 5px 14px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: normal;
+    border-right: 1px solid #FFFFFF;
+}
+#nbi a:hover{
+    background-color: #575757;
+    transition: 1s;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
