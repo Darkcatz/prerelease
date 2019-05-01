@@ -39,3 +39,14 @@ hr {
   margin: auto;
   width: 40%;
 }
+.topright {
+  position: absolute;
+  top: 0;
+  right: 16px;
+}
+.button{
+  background: transparent;
+  width: 10px;
+  height: 10px;
+  border: 0ch;
+}
